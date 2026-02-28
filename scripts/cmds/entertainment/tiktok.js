@@ -97,7 +97,7 @@ module.exports = {
 🎞️ Title  : ${title}
 🗣️ Creator: ${author}
 
-👤 Made by: Team noobCore
+👤 Made by: Selov
 ━━━━━━━━━━━━━━━━━━━━━`,
 					attachment: fs.createReadStream(filePath)
 				});
