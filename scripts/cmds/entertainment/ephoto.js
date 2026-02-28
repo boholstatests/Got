@@ -131,7 +131,7 @@ module.exports = {
  for (const i in availableTEMPLATES) {
  msg += `🆔 ${i.padStart(3, " ")} → ${availableTEMPLATES[i]}\n`;
  }
- msg += `\n💡 Usage:\n${prefix}ephoto <text> - <id>\nExample: ${prefix}ephoto Saimx69x - 27`;
+ msg += `\n💡 Usage:\n${prefix}ephoto <text> - <id>\nExample: ${prefix}ephoto selov - 27`;
  return message.reply(msg);
  }
 
