@@ -11,7 +11,7 @@ module.exports = {
     description: "Get random caption from selected category",
     guide: {
       en: "{pn} <category>",
-      bn: "{pn} <category>"
+      tl: "{pn} <category>"
     }
   },
 
@@ -58,13 +58,13 @@ module.exports = {
         return message.reply("❌ No caption found for this category.");
       }
 
-      const { bn, en } = res.data.result;
+      const { tl, en } = res.data.result;
 
       const text = `
 💬 𝘙𝘢𝘯𝘥𝘰𝘮 𝘊𝘢𝘱𝘵𝘪𝘰𝘯
 
-🌸 𝑩𝒂𝒏𝒈𝒍𝒂:
-${bn}
+🌸 tagalog:
+${tl}
 
 🌎 𝑬𝒏𝒈𝒍𝒊𝒔𝒉:
 ${en}
