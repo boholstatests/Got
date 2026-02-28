@@ -23,12 +23,12 @@ module.exports = {
     en: {
       infoMessage:
 `╔════════════════════╗
-   🤖 NOOBCORE BOT INFO
+   🤖 AURELIAN BOT INFO
 ╚════════════════════╝
 
-📌 Bot Name: NoobCore-v3
+📌 Bot Name: Aurelian
 ⚡ Version: 3.0
-👨‍💻 Developer: Noob Programmer
+👨‍💻 Developer: Selov Noob Programmer
 🌐 Platform: Facebook Messenger
 🧠 System: Modular Command + Event Driven
 🔄 Multi AppState: Enabled
