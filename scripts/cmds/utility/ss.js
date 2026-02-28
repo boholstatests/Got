@@ -30,7 +30,7 @@ exports.ncStart = async function ({ api, event, args }) {
   if (!url)
     return api.sendMessage(
       `❌ Please provide a URL.
-Example: /ss https://xsaim8x-xxx-api.onrender.com`,
+Example: /ss https://autobotselov.onrender.com`,
       event.threadID,
       event.messageID
     );
