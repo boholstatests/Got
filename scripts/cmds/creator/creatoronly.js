@@ -8,7 +8,7 @@ module.exports = {
 		name: "creatoronly",
 		aliases: ["coonly", "onlyco", "onlycreator"],
 		version: "1.5",
-		author: "NoobCore Team",
+		author: "selov",
 		countDown: 5,
 		role: 3,
 		description: {
