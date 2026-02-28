@@ -235,7 +235,7 @@ module.exports = {
                    .replace(/\{pn\}/g, prefix + name);
 
       const premium = cfg.premium || false;
-      const modify = cfg.modify || ["NoobCore Team"];
+      const modify = cfg.modify || ["Selov"];
       const usePrefix = cfg.usePrefix !== false;
 
       let msg = `╭─╼════════════════╾─╮\n`;
@@ -279,7 +279,7 @@ module.exports = {
       }
 
       msg += `• 𝙽𝚎𝚎𝚍 𝚑𝚎𝚕𝚙 with a command?\n Use ${prefix}help <commandname> to get full details.\n━━━━━━━━━━━━━━\n`;
-      msg += `Total Commands: ${all.length}\n ⏪ ${prefix}help ${page} | ${totalPages} ⏩\n Bot Name : ${global.noobCore.ncsetting.nickNameBot}\n 🗂️ Browse: ${prefix}help c category_name\n 👑 Dev: noobCore Team\n━━━━━━━━━━━━━━`;
+      msg += `Total Commands: ${all.length}\n ⏪ ${prefix}help ${page} | ${totalPages} ⏩\n Bot Name : ${global.noobCore.ncsetting.nickNameBot}\n 🗂️ Browse: ${prefix}help c category_name\n 👑 Dev: Selov\n━━━━━━━━━━━━━━`;
 
       return message.reply({ body: msg });
     }
