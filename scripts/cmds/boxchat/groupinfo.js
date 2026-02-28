@@ -55,7 +55,7 @@ module.exports = {
 👑 𝗔𝗱𝗺𝗶𝗻𝘀:
 ${adminList.map(name => `• ${name}`).join("\n")}
 ━━━━━━━━━━━━━━━
-🧠 𝗠𝗮𝗱𝗲 𝗯𝘆 𝐍𝐨𝐨𝐛𝐂𝐨𝐫𝐞 💙`;
+🧠 𝗠𝗮𝗱𝗲 𝗯𝘆 Selov`;
 
       const cachePath = path.join(__dirname, "cache", "groupinfo.jpg");
       fs.ensureDirSync(path.join(__dirname, "cache"));
