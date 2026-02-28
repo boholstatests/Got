@@ -15,7 +15,7 @@ module.exports = {
   },
 
   ncStart: async function ({ api, event, message }) {
-    const supportGroupThreadID = "2345731749224307";
+    const supportGroupThreadID = "1656635809077071";
 
     try {
 
