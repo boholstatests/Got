@@ -3,7 +3,7 @@ module.exports = {
     name: "bank",
     aliases: ["wallet"],
     version: "2.1",
-    author: "NOOBCORE TEAM",
+    author: "selov",
     countDown: 5,
     role: 0,
     description: "Bank system with wallet, bank, loan, etc.",
@@ -24,7 +24,7 @@ module.exports = {
    * Style Helpers
    * ======================= */
   brand() {
-    return "🦋 ɴᴏᴏʙ ᴄᴏʀᴇ 𝗕𝗮𝗻𝗸";
+    return "🦋 selov ᴄᴏʀᴇ 𝗕𝗮𝗻𝗸";
   },
 
   line() {
